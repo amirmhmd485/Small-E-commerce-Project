@@ -168,12 +168,11 @@ let all = document.querySelector(".all");
 let items = document.querySelector(".items")
 let startOrder = document.querySelector(".start");
 let resetTotal = document.querySelector(".reset-total")
-
 function confirmOrder(e){
     if(cartArray.length > 0){
         reset.classList.add("show");
         all.classList.add("show");
-        resetTotal.innerHTML = total.innerHTML
+        resetTotal.innerHTML = total.innerHTML;
         cartArray.forEach((item) => {
             items.innerHTML += `
                 <div class="item">
@@ -206,6 +205,7 @@ function StartOrder(e){
             box.children[1].classList.remove("hide");
         }
     })
+    cardLength.innerHTML = "";
     total.innerHTML = `0.0`;
     reset.classList.remove("show");
     all.classList.remove("show");
