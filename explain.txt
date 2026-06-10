@@ -1,0 +1,41 @@
+<div class="box">
+    <img src="assets/images/image-baklava-desktop.jpg" alt="baklava">
+    <div class="button">
+        <img src="assets/images/icon-add-to-cart.svg" alt="add-to-cart">
+        <button>Add to cart</button>
+    </div>
+    <div class="text">
+        <p>Waffle</p>
+        <h3>Waffle with Barries</h3>
+        <span>$6.50</span>
+    </div>
+</div>
+
+
+/////////////////////////////////////////////////////////////
+<div class="sell">
+    <div class="left">
+        <h3>classic teramisu</h3>
+        <div class="info">
+            <div class="count"><span class="number">3</span>x</div>
+            <div class="pric">@$<span class="price">5.50</span></div>
+            <div class="price-total">16.50</div>
+        </div>
+    </div>
+    <div class="right">X</div>
+</div>
+
+////////////////////////////////////////////////////////////
+<div class="item">
+    <div class="left">
+    <img src="assets/images/image-baklava-thumbnail.jpg" alt="">
+    <div class="text">
+        <h3 class="head">Classis Tiramisu</h3>
+        <div class="info">
+        <p class="count">x<span>2</span></p>
+        <div class="price">$ <span>5.25</span></div>
+        </div>
+    </div>
+    </div>
+    <div class="right">$ <span>10.5</span></div>
+</div>

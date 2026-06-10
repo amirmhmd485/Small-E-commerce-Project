@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="junior Level"> 
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Product list with cart</title>
+</head>
+<body>
+  <div class="container">
+    <div class="products">
+      <h2 class="header">Dessert</h2> 
+      <div class="content"></div>
+    </div>
+    <div class="cart">
+      <h3 class="header">Your Cart (<span class="cartlength"></span>)</h3>
+      <div class="cart-content"></div>
+      <div class="total">
+        <p>order Total</p>
+        <span class="spantotal">0.0 </span>
+      </div>
+      <div class="delivery">This is a <span>carbon neutral</span>delivery</div>
+      <button class="confirm">Confirm Order</button>
+    </div>
+  </div>
+  <div class="all">
+    <div class="reset">
+      <div class="img">
+        <img src="assets/images/icon-order-confirmed.svg" alt="">
+      </div>
+      <div class="header">
+        <h2>Order Confirmed</h2>
+        <p>We hope you enjoy your food!</p>
+      </div>
+      <div class="items">
+      </div>
+      <div class="total-reset">
+        <p>Total</p>
+        <span class="reset-total"></span>
+      </div>
+      <button class="start">Start New Order</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
