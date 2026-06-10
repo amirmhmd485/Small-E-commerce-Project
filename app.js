@@ -40,6 +40,7 @@ let cartArray = [];
 let i = 0;
 function addToCart(items){
     let identify = 0;
+    cart.innerHTML = "";
     items.forEach((item) => {
         cart.innerHTML += `
             <div class="sell" id = "${identify}">
@@ -117,7 +118,6 @@ content.addEventListener("click" , function(e){
                 e.count = number.innerHTML;
             }
         });
-        cart.innerHTML = "";
         addToCart(cartArray);
         total.innerHTML = `$${totalOrder(cartArray)}`;
     }
@@ -153,7 +153,6 @@ cart.addEventListener("click" , function(e){
         let itemName = e.target.parentElement.children[0].children[0];
         e.target.parentElement.remove();
         cartArray.splice( e.target.parentElement.getAttribute("id"), 1);
-        cart.innerHTML = "";
         addToCart(cartArray);
         total.innerHTML = `$${totalOrder(cartArray)}`;
         cardLength.innerHTML = cartArray.length;
